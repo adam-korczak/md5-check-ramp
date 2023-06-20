@@ -1,6 +1,5 @@
 import hashlib
 
-
 def check_md5_hash(hash_to_check, salt, string_file_path):
     with open(string_file_path, 'r') as file:
         for line in file:
@@ -11,7 +10,7 @@ def check_md5_hash(hash_to_check, salt, string_file_path):
     return None
 
 
-# Example usage
+
 md5_hash = '568fc2dfd281e9b6eb0e4211455c2e35'
 salt = 'c925c9a25bfd'
 
